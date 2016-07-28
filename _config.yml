@@ -1,4 +1,4 @@
-name: Horizons
-description: Horizons template for Jekyll
+name: IODC Unconference
+description: The Unconference happening in IODC
 paginate: 10
-baseurl: '/Horizons-Jekyll-Theme'
+baseurl: '/unconference'
