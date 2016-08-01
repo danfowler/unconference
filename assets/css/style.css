@@ -441,6 +441,65 @@
 			font-size: 0.8em;
 		}
 
+		/* Button 2 */
+
+			input[type="submit"],
+			input[type="reset"],
+			input[type="button2"],
+			.button2 {
+				-moz-appearance: none;
+				-webkit-appearance: none;
+				-o-appearance: none;
+				-ms-appearance: none;
+				appearance: none;
+				-moz-transition: background-color 0.2s ease-in-out;
+				-webkit-transition: background-color 0.2s ease-in-out;
+				-o-transition: background-color 0.2s ease-in-out;
+				-ms-transition: background-color 0.2s ease-in-out;
+				transition: background-color 0.2s ease-in-out;
+				background: #222833;
+				border-radius: 40px;
+				border: 0;
+				color: white;
+				cursor: pointer;
+				display: inline-block;
+				padding: 0.80em 2em;
+				text-align: center;
+				text-decoration: none;
+				font-size: 1.4em;
+				font-weight: 600;
+				min-width: 10em;
+				position: static;
+				top: 50%;
+				left: 50%;
+			}
+			.centered {
+	  top: 50%;
+	  left: 50%;
+	  /* bring your own prefixes */
+	  transform: translate(-50%, -50%);
+	}
+				input[type="submit"]:hover,
+				input[type="reset"]:hover,
+				input[type="button2"]:hover,
+				.button2:hover {
+					background-color: #32b777;
+				}
+
+				input[type="submit"].fit,
+				input[type="reset"].fit,
+				input[type="button2"].fit,
+				.button2.fit {
+					width: 100%;
+				}
+
+				input[type="submit"].small,
+				input[type="reset"].small,
+				input[type="button2"].small,
+				.button2.small {
+					font-size: 0.8em;
+				}
+
 /* Wrapper */
 
 	.wrapper.style1 {
@@ -450,7 +509,8 @@
 	.wrapper.style2 {
 		background: #ececec;
 		padding: 6em 0;
-		text-align: center;
+		margin: 0em;
+		text-align: justify;
 	}
 
 	.wrapper.style3 {
@@ -463,10 +523,18 @@
 			padding-top: 0.80em;
 			font-size: 2em;
 			font-weight: 600;
+			align-content:center;
 		}
 
 		.wrapper.style3 .button {
 			float: right;
+		}
+
+		.wrapper.style4 {
+			background: #fff;
+			padding: 6em 0;
+			margin: 0em;
+			text-align: justify;
 		}
 
 /* Header */
