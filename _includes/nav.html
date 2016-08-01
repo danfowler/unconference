@@ -4,22 +4,12 @@
 			{% assign current = page.url | downcase | split: '/' %}
 			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
 			<li>
-				<a href="">About the Unconference</a>
+				<a href="../unconference/about.html">About the Unconference</a>
 				<ul>
-					<li><a href="#">What is an unconference</a></li>
+					<li><a href="">What is an unconference</a></li>
 					<li><a href="#">Who can attend?</a></li>
 					<li><a href="#">I want to be a facilitator</a></li>
-					<li>
-						<a href="">Phasellus consequat</a>
-						<ul>
-							<li><a href="#">Lorem ipsum dolor</a></li>
-							<li><a href="#">Phasellus consequat</a></li>
-							<li><a href="#">Magna phasellus</a></li>
-							<li><a href="#">Etiam dolore nisl</a></li>
-							<li><a href="#">Veroeros feugiat</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Veroeros feugiat</a></li>
+					<li><a href="#">The buddy system</a></li>
 				</ul>
 			</li>
 			<li {% if current[1] == 'left-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/left-sidebar.html">Sign Up</a></li>
