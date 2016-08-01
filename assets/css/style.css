@@ -21,7 +21,7 @@
 	}
 
 	a {
-		color: #3ac984;
+		color: #dc0733;
 		text-decoration: underline;
 	}
 
@@ -55,6 +55,11 @@
 
 	h2 {
 		font-size: 1.5em;
+	}
+
+	.titles {
+	text-decoration: none;
+	color: #555555;
 	}
 
 	h3 {
@@ -91,7 +96,7 @@
 
 	header.major {
 		padding-top:0em;
-		padding-bottom: 5em;
+		padding-bottom: 2em;
 	}
 
 	header h2 {
@@ -138,7 +143,7 @@
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #3ac984;
+			border-color: #dc0733;
 		}
 
 	input[type="text"],
@@ -601,7 +606,7 @@
 			}
 
 			#nav > ul > li.active {
-				background: #3ac984;
+				background: #dc0733;
 			}
 
 				#nav > ul > li.active a {
@@ -616,7 +621,7 @@
 
 	.dropotron {
 		margin-top: -2px;
-		background: #3ac984;
+		background: #dc0733;
 		border-radius: 10px;
 		color: white;
 		min-width: 12em;
