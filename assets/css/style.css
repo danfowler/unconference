@@ -361,6 +361,10 @@
 				border-color: red;
 			}
 
+			div.square{
+				padding-left: 110px;
+			}
+
 			ul.list > :first-child {
 				padding-top: 0;
 				border-top: none;
