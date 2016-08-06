@@ -4,12 +4,19 @@
 			{% assign current = page.url | downcase | split: '/' %}
 			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
 			<li>
-				<a href="../unconference/about.html">About the Unconference</a>
+				<a href="../about.html">About the Unconference</a>
 				<ul>
-					<li><a href="../unconference/about.html#whatis">What is an unconference</a></li>
-					<li><a href="../unconference/about.html#whocan">Who can attend?</a></li>
-					<li><a href="../unconference/about.html#facilitate">I want to be a facilitator</a></li>
-					<li><a href="../unconference/about.html#buddies">The buddy system</a></li>
+					<li><a href="../about.html#whatisopenex">What is The Open Exchange?</a></li>
+					<li><a href="../about.html#whatis">What is an Unconference</a></li>
+					<li><a href="../about.html#whocan">Who can participate?</a></li>
+					<li><a href="../about.html#whois">Who is behind the Open Exchange?</a></li>
+					<li>
+							<a href="../about.html#buddies">The Buddy system</a>
+							<ul>
+								<li><a href="../about.html#facilitate">...And learn event and facilitation skills!</a></li>
+							</ul>
+					</li>
+					<li><a href="../about.html#shareideas">I have a new idea/question/feedback.</a></li>
 				</ul>
 			</li>
 			<li {% if current[1] == 'left-sidebar.html' %}class='current'{% endif %}><a href="https://goo.gl/forms/oLQtHdW91w9CSCC72">Sign Up</a></li>
