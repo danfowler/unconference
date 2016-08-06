@@ -546,6 +546,15 @@
 			text-align: justify;
 		}
 
+		.wrapper.style5 {
+			background: #dc0733;
+			margin: 0em;
+			text-align: center;
+			-webkit-align-content: center;
+			align-content: center;
+			padding-left: 2em;
+		}
+
 /* Header */
 
 	#header {
@@ -784,4 +793,29 @@
 #return-to-top:hover i {
     color: #fff;
     top: -5px;
+}
+
+/* Portfolio */
+
+.portfolio {
+		display:block;
+}
+.portfolio h2 {
+	font-size: 2em;
+	color: #FFF;
+}
+
+.portfolio-item {
+		width:20%;
+		height: auto;
+    margin-bottom: 20px;
+}
+
+.img-portfolio {
+		height: auto;
+		width: auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
 }
