@@ -1,4 +1,4 @@
 name: The Open Exchange
 description: The Unconference happening in IODC 2016
 paginate: 10
-baseurl: "unconference/"
+baseurl: "/"
