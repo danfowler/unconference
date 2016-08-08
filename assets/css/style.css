@@ -555,6 +555,16 @@
 			padding-left: 2em;
 		}
 
+		.wrapper.style6 {
+			background: #ececec;
+			margin: 0em;
+			text-align: center;
+			-webkit-align-content: center;
+			align-content: center;
+			padding-left: 2em;
+		}
+
+
 /* Header */
 
 	#header {
